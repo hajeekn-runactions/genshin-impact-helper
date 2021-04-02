@@ -1,8 +1,8 @@
 name: "Weibo Helper"
 
 on:
-  schedule:
-    - cron: "10 16 * * *"  # scheduled at 00:10 (UTC+8) everyday
+  # schedule:
+  #   - cron: "10 16 * * *"  # scheduled at 00:10 (UTC+8) everyday
   workflow_dispatch:
 
 env:
